@@ -4,7 +4,7 @@ This is the implementation of the D2GAN(Dual-Discriminator GAN) using pytorch, [
 
 ![image](https://user-images.githubusercontent.com/25279765/35868536-1d145ac0-0ba0-11e8-8a88-87783989490a.png)
 
-It uses two discriminator. one sees real data as real, however another one sees real data as fake.
+It uses two discriminator. One sees real data as real, however another one sees real data as fake.
 
 According to the paper, loss function is different from ordinary GAN. Therefore, I made custom loss function. It might be unstable(e.g. explode when training, converges into inf/-inf)
 
